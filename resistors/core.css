@@ -1,12 +1,19 @@
-body {
-    background-color: black;
-    color: white;
-    text-align: center;
-    font-family: Arial, sans-serif;
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
   }
 
-  #container {
-    margin-top: 200px;
+body {
+    background-color: #232323;
+    color: white;
+
+    text-align: center;
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   #color-input {
@@ -31,5 +38,7 @@ body {
     width: 40px;
     height: 100px;
     margin: 0 5px;
+    /* outline: solid #fffa 2px; */
+    /* box-shadow: 0 0 20px #666a; */
   }
   
