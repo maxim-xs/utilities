@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+
+  #container {
+    margin-top: 200px;
+  }
+
+  #color-input {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  #result {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+  #color-bands {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .color-band {
+    width: 40px;
+    height: 100px;
+    margin: 0 5px;
+  }
+  
