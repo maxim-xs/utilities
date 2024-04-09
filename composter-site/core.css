@@ -1,0 +1,44 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    background-color: #232323;
+    color: white;
+
+    text-align: center;
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #color-input {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  #result {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+  #color-bands {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .color-band {
+    width: 40px;
+    height: 100px;
+    margin: 0 5px;
+    /* outline: solid #fffa 2px; */
+    /* box-shadow: 0 0 20px #666a; */
+  }
+  
